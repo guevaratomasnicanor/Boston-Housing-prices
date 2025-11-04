@@ -6,4 +6,6 @@ The goal is to predict house prices in Boston
 -Industrial zones, higher crame rates, higher pollution, higher percentage of low status individuals or higher student to professor ratio means lower house value.
 - Residential zones or more rooms make higher house prices
 - Houses that border Charles river are more expensive.
+- XGBOOST is the best model with an RMSE of 2.93 and 2.07 MAE.
+  
 
