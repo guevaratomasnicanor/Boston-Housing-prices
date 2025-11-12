@@ -37,16 +37,21 @@ El dataset contiene información de **506 observaciones** y **14 variables**, am
 
 ## 🔍 Insights Principales
 
-- 🏭 **Zonas industriales**, alta **tasa de criminalidad**, mayor **contaminación (nox)**, alto porcentaje de **población de bajo estatus (`lstat`)** o mayor **ratio estudiante/profesor (`ptratio`)** → **menores precios** de vivienda.  
-- 🏡 Áreas con **más habitaciones (`rm`)** o **mayor proporción de zonas residenciales (`zn`)** → **valores más altos**.  
-- 🌊 Viviendas que **bordean el río Charles (`chas = 1`)** son **significativamente más caras**.  
+- 🏭 **Zonas industriales**, alta **tasa de criminalidad**, mayor **contaminación (nox)**, alto porcentaje de **población de bajo estatus (`lstat`)** o mayor **ratio estudiante/profesor (`ptratio`)** → **menores precios** de vivienda.
+<img width="1347" height="693" alt="Captura de pantalla 2025-11-12 162917" src="https://github.com/user-attachments/assets/201b12ff-c2f5-4edc-827d-ce12dd7a97c4" />
+- 🏡 Áreas con **más habitaciones (`rm`)** o **mayor proporción de zonas residenciales (`zn`)** → **valores más altos**.
+<img width="1355" height="693" alt="Captura de pantalla 2025-11-12 163504" src="https://github.com/user-attachments/assets/43a2d205-4849-42f0-a551-89a3f0976be0" />
+
+- 🌊 Viviendas que **bordean el río Charles (`chas = 1`)** son **significativamente más caras**.
+<img width="1347" height="656" alt="Captura de pantalla 2025-11-12 160847" src="https://github.com/user-attachments/assets/bd926b92-6bd3-4b10-9c62-b3f4cc5b5da9" />
+
 - 💡 Las variables con mayor impacto sobre el precio son: `lstat`, `rm`, `ptratio` y `nox`.
 
 ---
 
 ## 🤖 Modelado Predictivo
 
-Se implementaron distintos modelos de regresión para estimar el valor medio de las viviendas (`medv`).
+Se implementaron distintos modelos de regresión y data mining para estimar el valor medio de las viviendas (`medv`).
 
 **Mejor modelo:** `XGBoost`
 
@@ -71,13 +76,8 @@ Otros modelos probados: Linear Regression, Random Forest, LightGBM.
 
 ---
 
-## 📈 Visualizaciones destacadas
 
-- Heatmap de correlaciones  
-- Distribución de `medv` (valor medio de vivienda)  
-- Boxplots de `chas`, `rm`, `lstat` y `nox` vs `medv`  
-- Gráfico de residuos del modelo  
-- Feature importance de XGBoost  
+
 
 
   
