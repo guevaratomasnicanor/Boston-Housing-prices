@@ -53,14 +53,13 @@ El dataset contiene información de **506 observaciones** y **14 variables**, am
 
 Se implementaron distintos modelos de regresión y data mining para estimar el valor medio de las viviendas (`medv`).
 
-**Mejor modelo:** `XGBoost`
+             XGBoost 2.966036 2.078375 0.8947201 10.53740
+       Random Forest 3.231569 2.208940 0.8729431 11.19965
+            LightGBM 3.234362 2.174233 0.8729887 11.00312
+  Regresión Múltiple 4.792320 3.348142 0.7225754 16.82101
 
-| Modelo | RMSE | MAE | R² |
-|---------|------|-----|----|
-| XGBoost | **2.93** | **2.07** | 0.88 |
 
-Otros modelos probados: Linear Regression, Random Forest, LightGBM.
-
+El modelo xgboost es el mejor ya que sus métricas de error son las menores. Su error de predicción es de 10,6% y el modelo es capaz de explicar 88,5% de la variabilidad.
 ---
 
 ## 🧰 Tecnologías utilizadas
