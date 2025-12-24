@@ -52,14 +52,15 @@ El dataset contiene información de **506 observaciones** y **14 variables**, am
 ## 🤖 Modelado Predictivo
 
 Se implementaron distintos modelos de regresión y data mining para estimar el valor medio de las viviendas (`medv`).
+                    vRMSE         MAE        R2     MAPE
 
              XGBoost 2.966036 2.078375 0.8947201 10.53740
        Random Forest 3.231569 2.208940 0.8729431 11.19965
-            LightGBM 3.234362 2.174233 0.8729887 11.00312
+            LightGBM 3.15304  2.175654 0.8800324 10.95008
   Regresión Múltiple 4.792320 3.348142 0.7225754 16.82101
 
 
-El modelo xgboost es el mejor ya que sus métricas de error son las menores. Su error de predicción es de 10,6% y el modelo es capaz de explicar 88,5% de la variabilidad.
+El modelo xgboost es el mejor ya que sus métricas de error son las menores. Su error de predicción es de 10,% y el modelo es capaz de explicar 89,5% de la variabilidad.
 ---
 
 ## 🧰 Tecnologías utilizadas
