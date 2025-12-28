@@ -63,7 +63,7 @@ Se implementaron distintos modelos de regresión y data mining para estimar el v
 
 
  
-El modelo xgboost es el mejor ya que sus métricas de error son las menores. Su error de predicción es de 10,% y el modelo es capaz de explicar 89,5% de la variabilidad.
+El modelo xgboost es el mejor ya que sus métricas de error son las menores. Su error de predicción promedio es de 10% y el modelo es capaz de explicar 89,5% de la variabilidad.
 ---
 
 ## 🧰 Tecnologías utilizadas
