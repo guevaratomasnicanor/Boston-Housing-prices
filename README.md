@@ -53,13 +53,12 @@ El dataset contiene información de **506 observaciones** y **14 variables**, am
 
 Se implementaron distintos modelos de regresión y data mining para estimar el valor medio de las viviendas (`medv`).
 
-       | Modelo              | RMSE | MAE | R² | MAPE |
-       |---------------------|------|------|-------|--------|
-       | XGBoost             | 2.97 | 2.08 | 0.895 | 10.54% |
-       | Random Forest       | 3.23 | 2.21 | 0.873 | 11.20% |
-       | LightGBM            | 3.14 | 2.15 | 0.880 | 10.84% |
-       | Regresión Múltiple  | 4.79 | 3.35 | 0.723 | 16.82% |
- 
+| Modelo              | RMSE | MAE | R² | MAPE |
+|---------------------|------|-----|----|------|
+| XGBoost             | 2.97 | 2.08 | 0.895 | 10.54% |
+| Random Forest       | 3.23 | 2.21 | 0.873 | 11.20% |
+| LightGBM            | 3.14 | 2.15 | 0.880 | 10.84% |
+| Regresión Múltiple  | 4.79 | 3.35 | 0.723 | 16.82% |
 
 
  
