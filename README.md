@@ -64,6 +64,24 @@ Se implementaron distintos modelos de regresión y data mining para estimar el v
  
 El modelo xgboost es el mejor ya que sus métricas de error son las menores. Su error de predicción promedio es de 10% y el modelo es capaz de explicar 89,5% de la variabilidad.
 ---
+---
+
+## 💼 Caso de Negocio
+
+Pensemos en una inmobiliaria o fondo de inversión que tasa **500 propiedades al año** (valor promedio: **$350,000 USD**) usando un método tradicional como la regresión lineal, cuyo error promedio (MAPE) es del **16.82%** → un margen de equivocación de **$58,870 USD por propiedad**, o **$29.4 millones de dólares** de exposición al riesgo en el portafolio anual.
+
+Al reemplazar ese enfoque por **XGBoost**, el error cae a **10.54%**, reduciendo el margen de equivocación a **$36,890 USD por propiedad**. Escalado al portafolio completo, esto representa una **reducción del 37.3% en la exposición al riesgo de tasación**, equivalente a casi **$11 millones de dólares al año** en decisiones de compra, venta y crédito mejor fundamentadas.
+
+| Métrica | Regresión Múltiple | XGBoost | Mejora |
+|---|---|---|---|
+| MAPE | 16.82% | 10.54% | -37.3% |
+| Error por propiedad (USD) | $58,870 | $36,890 | -$21,980 |
+| Exposición anual (500 propiedades) | $29.4M | $18.4M | **-$11.0M** |
+
+Además, el modelo explica el **89.5% de la variabilidad** del precio (R²), confirmando que factores como `lstat`, `rm`, `ptratio` y `nox` —ya identificados en el análisis exploratorio— son los verdaderos motores del valor de una vivienda. No se trata de reemplazar el criterio humano, sino de darle una base cuantitativa sólida para tomar decisiones donde antes solo había estimaciones aproximadas.
+
+---
+
 
 ## 🧰 Tecnologías utilizadas
 
